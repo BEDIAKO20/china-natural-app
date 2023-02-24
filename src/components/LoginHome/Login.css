@@ -1,0 +1,174 @@
+/* body, html {
+    height: 100%;
+  } */
+
+  *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+  }
+.App{
+    background-image: url('https://img.freepik.com/free-vector/hospital-clinic-building-with-ambulance-car-truck_107791-2645.jpg?w=2000&t=st=1676926216~exp=1676926816~hmac=07fedc00e051c8d40d414a2e8793420c739e12b29ad87d27037129b3307ace8d');
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+  
+}
+
+
+
+.page {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .content {
+    width: calc(100% - 50px);
+    margin-left: auto;
+    padding: 15px;
+    height: 100%;
+    word-break: break-word;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    width: 50px;
+    height: 100%;
+    background-color: #2a363b;
+    transition: width 0.3s ease;
+    border-right: 1px #4d606e solid;
+    padding-top: 15px;
+  }
+  
+  .sidebar .sidebar-position {
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    text-align: left;
+  }
+  
+  .sidebar .sidebar-position:hover {
+    background-color: #3f5159;
+    border-right: 5px #e84a5f solid;
+  }
+  
+  .sidebar svg {
+    color: #e84a5f;
+    min-width: 25px;
+  }
+  
+  .sidebar .span {
+    width: 0;
+    height: 0;
+    padding: 0 15px;
+    transition: width 0.3s ease;
+    color: #c9c9c9;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .sidebar--open {
+    width: 250px;
+    transition: width 0.3s ease;
+  }
+  
+  .sidebar--open .sidebar-position span {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .trigger {
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 12px 15px;
+  }
+
+  .page {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .content {
+    width: calc(100% - 50px);
+    margin-left: auto;
+    padding: 15px;
+    height: 100%;
+    word-break: break-word;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 0;
+    width: 50px;
+    height: 100%;
+    background-color: #2a363b;
+    transition: width 0.3s ease;
+    border-right: 1px #4d606e solid;
+    padding-top: 15px;
+  }
+  
+  .sidebar .sidebar-position {
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 0 12px;
+    text-align: left;
+  }
+  
+  .sidebar .sidebar-position:hover {
+    background-color: #3f5159;
+    border-right: 5px #16FF00 solid;
+  }
+  
+  .sidebar svg {
+    color: #16FF00;
+    min-width: 25px;
+  }
+  
+  .sidebar .span {
+    width: 0;
+    height: 0;
+    padding: 0 15px;
+    transition: width 0.3s ease;
+    color: #c9c9c9;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .sidebar--open {
+    width: 250px;
+    transition: width 0.3s ease;
+  }
+  
+  .sidebar--open .sidebar-position .span {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .trigger {
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 0 12px 15px;
+  }
+  
+  
