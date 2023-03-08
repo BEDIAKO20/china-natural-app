@@ -9,11 +9,16 @@ import Pharmacy from '../components/Pharmacy/Pharmacy';
 import Laboratory from '../components/Laboratory/Lab'
 import Gym from '../components/Gym/Gym'
 import Physiotherap from '../components/Physiotherap/Physiotherap'
+import LabDoctor from '../components/Doctor/LabDoctor';
+import { PhaDoctor } from '../components/Doctor/PhaDoctor';
+
 function router() {
   return (
     <div>
         <BrowserRouter>
+       
         <Routes>
+        
              <Route path={'/'} element={<Navigate to={'/loginHome/'}/>}/>
              <Route path={'/loginHome'} element={<LoginHome/>} />
               <Route  path={'/doctor'} element={<Doctor/>}/>
@@ -24,6 +29,8 @@ function router() {
                  <Route path={'/laboratory'} element={<Laboratory/>}/>
                  <Route path={'/gym'} element={<Gym/>}/>
                  <Route path={'/physiotherap'} element={<Physiotherap/>}/>
+                 <Route path={'/labDoctor'} element={<LabDoctor/>}/>
+                 <Route path={'/phaDoctor'} element={<PhaDoctor/>}/>
                   </Routes>
         
         </BrowserRouter>

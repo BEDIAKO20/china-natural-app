@@ -31,7 +31,7 @@ function Login() {
 
   return (
     <React.Fragment>
-    <div className="App">
+    <div className="Loging">
       <div className="page">
         <div className="content">
           <a
